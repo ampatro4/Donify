@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <style>
+        div{
+            border: 2px solid ghostwhite;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(177, 174, 174);
+            border-radius: 20px;            
+        }
+        .style{
+            border: 3px solid blue;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        #sign{
+            background-color: tomato;
+            border: none;
+            padding: 15px 102px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Donify</h1>
+        <h3 id="img">Registration</h3>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="username" id="username" placeholder="Enter name" class="style" ><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="style" placeholder="Enter email"><br><br>
+            <label for="mobile">Mobile</label>
+            <input type="mobile" name="mobile" id="mobile" class="style" placeholder="Enter mobileNo"><br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" value="male" class="style">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" class="style">
+            <label for="female">Female</label><br><br>
+            <label for="city">City</label>
+            <select name="State" id="State" class="style">
+                <option value=""disabled selected hidden> Select State</option>
+                <option value="BBS">Odisha</option>
+                <option value="BAM">Maharastra</option>
+                <option value="KPT">Uttar Pradesh</option>
+                <option value="Balasore">Bihar</option>
+                
+            </select>
+            <select name="city" id="city" class="style">
+                <option value=""disabled selected hidden> Select city</option>
+                <option value="BBS">Bhubaneswar</option>
+                <option value="BAM">Berhampur</option>
+                <option value="KPT">Koraput</option>
+                <option value="Balasore">Balasore</option>
+                
+            </select><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="style" placeholder="Enter password"><br> <br>
+            <label for="password">Confirm password</label>
+            <input type="password" name="password" id="password" class="style" placeholder="Confirm your password">
+            <br><br>
+            <button type="submit" id="sign">Register</button>
+        </form>
+    </div>
+</body>
+</html>
