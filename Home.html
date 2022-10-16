@@ -1,137 +1,149 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-    body{
-        background-image: url('https://t4.ftcdn.net/jpg/04/26/52/71/360_F_426527111_59QersN3ayDJ7Sfa5qwnKkp4l1O5tuAp.jpg');
-        height: 80vh;
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-image: url('https://t4.ftcdn.net/jpg/04/26/52/71/360_F_426527111_59QersN3ayDJ7Sfa5qwnKkp4l1O5tuAp.jpg');
+            height: 80vh;
+        }
+        body,h1,h2{
+            font-family: "Raleway", sans-serif
     }
-    body,h1,h2{
-        font-family: "Raleway", sans-serif
-}
-    body, html {height: 100%}
-    p {line-height: 2}
-    .main{
-        width: 100%;
-        height: 80vh;
-        background: url("https://crido.pl/wp-content/uploads/2022/03/blog-Tax-preferences-related-to-charity-actions-aimed-at-counteracting-the-effects-of-the-war-in-Ukraine.jpg");
-        background-position: center;
-        background-size: cover;
-    }
-    .main-text{
-        color: rgb(30, 8, 73);
-        position:absolute;
-        top: 50%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-    }
-    .div{
-            border: 2px solid rgb(25, 25, 185);
-            margin: auto;
-            width: 50%;
-            text-align: center;
-            padding: 10px;
-            background-color: rgb(171, 31, 31);
-            border-radius: 20px;            
+        body, html {height: 100%}
+        p {line-height: 2}
+        .main{
+            width: 100%;
+            height: 80vh;
+            background: url("https://crido.pl/wp-content/uploads/2022/03/blog-Tax-preferences-related-to-charity-actions-aimed-at-counteracting-the-effects-of-the-war-in-Ukraine.jpg");
+            background-position: center;
+            background-size: cover;
         }
-        .style{
-            border: 3px solid blue;
-            border-radius: 10px;
-            padding: 5px;
+        .main-text{
+            color: rgb(30, 8, 73);
+            position:absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
         }
-        #sign{
-            background-color: tomato;
-            border: none;
-            padding: 15px 102px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 10px;
-        }
-        a{
-            text-decoration: none;
-        }
-        .registrationbutton{
-            border-radius: 50px;
-            box-shadow: 5px, 10px;
-            background-color: coral;
-        }
-        .registrationbutton:hover{
-            background-color: rgb(163, 39, 70);
-        }
-        .text{
-            font-size: larger;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="main">
-            <div class="main-text w3-animate-left">
-                <h1 class="w3-jumbo w3-text">Welcome to Donify</h1>
-                <h2 class="w3-text-white">When we give cheerfully and accept gratefully, everyone is blessed</h2>
-            </div>
-        </div>
-    </header>
+        .div{
+                border: 2px solid rgb(25, 25, 185);
+                margin: auto;
+                width: 50%;
+                text-align: center;
+                padding: 10px;
+                background-color: rgb(171, 31, 31);
+                border-radius: 20px;            
+            }
+            .style{
+                border: 3px solid blue;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            #sign{
+                background-color: tomato;
+                border: none;
+                padding: 15px 102px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            a{
+                text-decoration: none;
+            }
+            .registrationbutton{
+                border-radius: 50px;
+                box-shadow: 5px, 10px;
+                background-color: coral;
+            }
+            .registrationbutton:hover{
+                background-color: rgb(163, 39, 70);
+            }
+            .text{
+                font-size: larger;
+            }
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
     
-
-
-
-<!-- Navbar (sticky bottom) -->
-<div class="w3-bottom w3-hide-small">
-  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="#home" style="width:16.67%" class="w3-bar-item w3-button">Home</a>
-    <a href="RegistrationPage.html" style="width:16.67%" class="w3-bar-item w3-button w3-hover-black">Register</a>
-    <a href="Payment.html" style="width:16.67%" class="w3-bar-item w3-button w3-hover-black">Payment</a>
-    <a href="#wedding" style="width:16.67%" class="w3-bar-item w3-button">Contact us</a>
-    <a href="#rsvp" style="width:16.57%" class="w3-bar-item w3-button w3-hover-black">About us</a>
-  </div>
-</div>
-
-
-<!-- About / Jane And John -->
-<div class="w3-container w3-padding-64" id="us">
-  <div class="w3-content">
-    <h1 class="w3-center"><b>Donify</b></h1>
-    <img class="w3-round w3-grayscale-min" src="middle.jpg" style="width:100%;margin:32px 0">
-    <p><i class="text">Donations are given without return consideration. This lack of return consideration means that, in common law, an agreement to make a donation is an "imperfect contract void for want of consideration."[6] Only when the donation is actually made does it acquire legal status as a transfer or property.[7]
-
-        In politics, the law of some countries may prohibit or restrict the extent to which politicians may accept gifts or donations of large sums of money, especially from business or lobby groups (see campaign finance). Donations of money or property to qualifying charitable organizations are also usually tax deductible. Because this reduces the state's tax income, calls have been raised that the state (and the public in general) should pay more attention towards ensuring that charities actually use this 'tax money' in suitable ways.
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="main" id=" main">
+                <div class="main-text w3-animate-left">
+                    <h1 class="w3-jumbo w3-text">Welcome to Donify</h1>
+                    <h2 class="w3-text-white">When we give cheerfully and accept gratefully, everyone is blessed</h2>
+                </div>
+            </div>
+        </header>
         
-        There have been discussions on whether also a donation of time should be tax deductible.[8]
-        
-        The person or institution giving a gift is called the donor, and the person or institution getting the gift is called the donee</i>
-    </p><br>
-  </div>
-</div>
 
-<!-- About us information -->
-<div class="w3-container w3-padding-64 w3-grayscale-min w3-center" id="wedding">
-  <div class="w3-content">
-    <h1 class="w3-text-back"><b>About us</b></h1>
-    <h2 class="heading">Girl child Education</h2>
-    <img class="w3-round-large w3-grayscale-min" src="girl_education_india.jpg" style="width:100%;margin:64px 0">
-    <h2 class="heading">Women empowerment</h2>
-    <img class="w3-round-large w3-grayscale-min" src="https://bsmedia.business-standard.com/_media/bs/img/article/2020-09/30/full/1601405150-2084.jpg" style="width:100%;margin:64px 0">
-    <h2 class="heading">Education for poor children's</h2>
-    <img class="w3-round-large w3-grayscale-min" src="https://thelogicalindian.com/h-upload/2020/01/27/152340-10-1.jpg" style="width:100%;margin:64px 0">
+
+
+    <!-- Navbar (sticky bottom) -->
+    <div class="w3-top w3-hide-small">
+    <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+        <a href="#main" style="width:16.67%" class="w3-bar-item w3-button">Home</a>
+        <a href="RegistrationPage.html" style="width:16.67%" class="w3-bar-item w3-button w3-hover-black">Register</a>
+        <a href="Payment.html" style="width:16.67%" class="w3-bar-item w3-button w3-hover-black">Donate</a>
+        <a href="#socialmedia" style="width:16.67%" class="w3-bar-item w3-button">Contact us</a>
+        <a href="#About us" style="width:16.57%" class="w3-bar-item w3-button w3-hover-black">About us</a>
+        <a href="#socialmedia" style="width:16.57%" class="w3-bar-item w3-button w3-hover-black">Social Contacts</a>
     </div>
-</div>
+    </div>
 
-<!-- RSVP section -->
-<div class="w3-container w3-padding-64 w3-center w3-wide" id="rsvp">
-  <h1>HOPE YOU CAN MAKE IT!</h1>
-  <p class="w3-large">Let's come together a donate</p>
-  <p class="w3-center"><a href="Payment.html" class="w3-button w3-black w3-round w3-padding-large w3-large">Payment Details</a></p>
-</div>
 
-</body>
-</html>
+    <!-- About / Jane And John -->
+    <div class="w3-container w3-padding-64" id="us">
+    <div class="w3-content">
+        <h1 class="w3-center"><b>Donify</b></h1>
+        <img class="w3-round w3-grayscale-min" src="middle.jpg" style="width:100%;margin:32px 0">
+        <p><i class="text"></i>
+        </p><br>
+    </div>
+    </div>
+
+    <!-- About us information -->
+    <div class="w3-container w3-padding-64 w3-grayscale-min w3-center" id="About us">
+    <div class="w3-content">
+        <h1 class="w3-text-back"><b>About us</b></h1>
+        <h2 class="heading">Girl child Education</h2>
+        <img class="w3-round-large w3-grayscale-min" src="girl_education_india.jpg" style="width:100%;margin:64px 0">
+        <h2 class="heading">Women empowerment</h2>
+        <img class="w3-round-large w3-grayscale-min" src="https://bsmedia.business-standard.com/_media/bs/img/article/2020-09/30/full/1601405150-2084.jpg" style="width:100%;margin:64px 0">
+        <h2 class="heading">Education for poor children's</h2>
+        <img class="w3-round-large w3-grayscale-min" src="https://thelogicalindian.com/h-upload/2020/01/27/152340-10-1.jpg" style="width:100%;margin:64px 0">
+        </div>
+    </div>
+
+    <!-- RSVP section -->
+    <div class="w3-container w3-padding-64 w3-center w3-wide" id="rsvp">
+    <h1>HOPE YOU CAN MAKE IT!</h1>
+    <p class="w3-large">Let's come together a donate</p>
+    <p class="w3-center"><a href="https://pages.razorpay.com/pl_GFF2rkynv03jik/view" class="w3-button w3-black w3-round w3-padding-large w3-large">Let's donate for the welfare</a></p>
+    </div>
+    <div class="social media w3-right-align" id="socialmedia">
+        <a href="" class="fa fa-google"></a>
+        <a href="" class="fa fa-linkedin"></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-instagram"></a>
+    </div>
+
+
+    </body>
+    </html>
